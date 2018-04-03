@@ -1,0 +1,37 @@
+// package main
+
+// func main() {
+// 	// "variableName"という名前で定義します。型は"int"です
+// 	var variableName int
+
+// 	// すべて"int"型の３つの変数を定義します
+// 	var vname1, vname2, vname3 int
+
+// 	//"variableName"の変数を"0"で初期化します。型は"int"です。
+// 	var variableName int = 0
+
+// 	/*
+// 	   すべてが"type"型となる変数をそれぞれ定義し、個別に初期化を行います。
+// 	   vname1は0，vname2は1，vname3は2
+// 	*/
+// 	// var vname1, vname2, vname3 int = 0, 1, 2
+// 	vname1, vname2, vname3 := 0, 1, 2
+
+// 	var arr [10]int // int型の配列を宣言します。
+// 	arr[0] = 42     // 配列のインデックスは0からはじまります。
+// 	arr[1] = 13     // 代入操作
+
+// 	// 10個の要素を宣言します。要素の型はbyteの配列です。
+// 	var ar = [10]byte{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'}
+
+// 	// byteを含む２つのsliceを宣言します
+// 	var a, b []byte
+
+// 	// aポインタ配列の3つ目の要素から始まり、5つ目の要素まで
+// 	a = ar[2:5]
+// 	//現在aの持つ要素は：ar[2]、ar[3]とar[4]です。
+
+// 	// bは配列arのもう一つのsliceです。
+// 	b = ar[3:5]
+// 	// bの要素は：ar[3]とar[4]です。
+// }
